@@ -1,0 +1,31 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-left-sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.sales-title{
+    color: rgb(128, 128, 128);
+}
+
+.sales-value{
+    color: var(--black);
+    font-weight: 700;
+    font-size: larger;
+}
+
+.sales-span{
+    color: var(--green);
+    font-weight: 700;
+}

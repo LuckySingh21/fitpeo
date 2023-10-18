@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.cards-collection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+    border-radius: 10px;
+    padding: 0.4rem;
+    border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hand-sign{
+    margin-left: 0.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.App{
+    display: flex;
+    flex-direction: row;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 20%;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    
+}
+
+.right{
+    margin: 0;
+    padding: 1rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+.right-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.charts{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+
+.bar-chart-container{
+    width: 70% !important;
+    /* height: 300px;
+    object-fit: contain; */
+}
+
+.donut-chart-container{
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100% !important;
+    width: 25% !important;
+}
+
+.cutsomers{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    
+}
+
+.customers-comment{
+    font-size: 1rem;
+    color: rgb(128, 128, 128);
+    margin-top: 0;
+}
+
+ .bar-chart-container canvas{
+    
+    height: 300px !important;
+    width: 95% !important;
+}
+
+.donut-chart-container canvas{
+    height: 300px !important;
 }

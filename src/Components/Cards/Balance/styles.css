@@ -1,0 +1,35 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--white);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.card-left-balance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(138, 187, 220);
+    border-radius: 50%;
+}
+
+.balance-title{
+    color: rgb(128, 128, 128);
+}
+
+.balance-value{
+    color: var(--black);
+    font-weight: 700;
+    font-size: larger;
+}
+
+.balance-span{
+    color: var(--red);
+    font-weight: 700;
+}

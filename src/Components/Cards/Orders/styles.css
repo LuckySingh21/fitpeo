@@ -1,0 +1,31 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-left-orders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(201, 175, 201);
+    border-radius: 50%;
+}
+
+.orders-title{
+    color: rgb(128, 128, 128);
+}
+
+.orders-value{
+    color: var(--black);
+    font-weight: 700;
+    font-size: larger;
+}
+
+.orders-span{
+    color: var(--red);
+    font-weight: 700;
+}
