@@ -35,7 +35,7 @@ function App() {
           </div>
           <div className="donut-chart-container">
             <div>
-              <p className="cutsomers">Customers</p>
+              <p className="customers">Customers</p>
               <p className="customers-comment">Customers that buy products</p>
             </div>
             <div>

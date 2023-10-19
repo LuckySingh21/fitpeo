@@ -81,7 +81,7 @@ input{
     width: 25% !important;
 }
 
-.cutsomers{
+.customers{
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 0;
@@ -124,6 +124,16 @@ input{
    }
 
    .donut-chart-container{
-    width: 100% !important;
+    width: auto !important;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .customers{
+        font-size: 1rem;
+    }
+    .customers-comment{
+        font-size: 0.7rem;
+    }
+    
+  }
